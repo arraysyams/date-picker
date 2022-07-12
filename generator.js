@@ -1,11 +1,8 @@
 // @ts-nocheck
 
 var btPicker = document.getElementById("btPick");
-var btConfirm = document.getElementById("btGenerate");
 var btGoToday = document.getElementById("btToday");
 var txtOut = document.getElementById("txtRes");
-
-btConfirm.addEventListener("click", generateText)
 
 btGoToday.addEventListener("click", function () {
     btPicker.valueAsNumber = Date.now();
